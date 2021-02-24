@@ -21,14 +21,14 @@ int kiiras(int* a, int n)
         printf("%i ", a[i]);
     }
 }
-int binariskereses(int* a, int n, int keresettelem, int elso, int utolso)
+void binariskereses(int* a, int n, int x, int elso, int utolso)
 {
     int kozep=(elso+utolso)/2;
     while(elso<=utolso) {
-        if (a[kozep] < keresettelem) {
+        if (a[kozep] < x) {
             elso = kozep + 1;
-        } else if (a[kozep] == keresettelem) {
-            printf("Az elem megvan: %i", kozep + 1);
+        } else if (a[kozep] == x) {
+            printf(" Az elem megvan: %i", kozep + 1);
             break;
         } else {
             utolso = kozep - 1;
@@ -37,7 +37,7 @@ int binariskereses(int* a, int n, int keresettelem, int elso, int utolso)
     }
         if(elso>utolso)
         {
-            printf("A keresett elem nincs meg");
+            printf(" A keresett elem nincs meg");
         }
     }
 

@@ -8,14 +8,13 @@ int main() {
     srand(time(NULL));
     int n;
     scanf("%i",&n);
-    int* a=(int*)malloc(sizeof(int));
+    int keresettelem=rand()%100;
+    int* a=(int*)malloc(n*sizeof(int));
+    int elso=0,utolso=n-1;
     feltoltes(a,n);
     kiiras(a,n);
-    int elso=0,utolso=n-1;
-    int keresettelem;
-    printf("Add meg a keresett elemet: ");
-    scanf("%i", &keresettelem);
+    printf("\nA keresett elem: %i\n100",keresettelem);
     binariskereses(a,n,keresettelem,elso,utolso);
-
+    free(a);
     return 0;
 }
