@@ -15,7 +15,7 @@ int main() {
     printf("Add meg a keresett elemet:");
     scanf("%i",&keresettelem);
     kiiras(a,n);
-    lineariskereses(a,n,keresettelem);
+    printf("\nA helye: %i",lineariskereses(a,n,keresettelem));
 
 
     return 0;

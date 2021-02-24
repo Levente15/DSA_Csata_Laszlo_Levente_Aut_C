@@ -16,7 +16,7 @@ int feltoltes(int* a, int n)
 }
 int kiiras(int* a, int n)
 {
-    for(int i=0;i,n;i++)
+    for(int i=0;i<n;i++)
     {
         printf("%i ", a[i]);
     }
