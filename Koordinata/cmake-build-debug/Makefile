@@ -67,10 +67,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_Csata_Laszlo_Levente_Aut_C\Gyakorlat_2
+CMAKE_SOURCE_DIR = C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_Csata_Laszlo_Levente_Aut_C\Koordinata
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_Csata_Laszlo_Levente_Aut_C\Gyakorlat_2\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_Csata_Laszlo_Levente_Aut_C\Koordinata\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_Csata_Laszlo_Levente_Aut_C\Gyakorlat_2\cmake-build-debug\CMakeFiles C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_Csata_Laszlo_Levente_Aut_C\Gyakorlat_2\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_Csata_Laszlo_Levente_Aut_C\Koordinata\cmake-build-debug\CMakeFiles C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_Csata_Laszlo_Levente_Aut_C\Koordinata\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_Csata_Laszlo_Levente_Aut_C\Gyakorlat_2\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_Csata_Laszlo_Levente_Aut_C\Koordinata\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -130,17 +130,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Gyakorlat_2
+# Target rules for targets named Koordinata
 
 # Build rule for target.
-Gyakorlat_2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Gyakorlat_2
-.PHONY : Gyakorlat_2
+Koordinata: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Koordinata
+.PHONY : Koordinata
 
 # fast build rule for target.
-Gyakorlat_2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gyakorlat_2.dir\build.make CMakeFiles/Gyakorlat_2.dir/build
-.PHONY : Gyakorlat_2/fast
+Koordinata/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Koordinata.dir\build.make CMakeFiles/Koordinata.dir/build
+.PHONY : Koordinata/fast
+
+function.obj: function.c.obj
+
+.PHONY : function.obj
+
+# target to build an object file
+function.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Koordinata.dir\build.make CMakeFiles/Koordinata.dir/function.c.obj
+.PHONY : function.c.obj
+
+function.i: function.c.i
+
+.PHONY : function.i
+
+# target to preprocess a source file
+function.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Koordinata.dir\build.make CMakeFiles/Koordinata.dir/function.c.i
+.PHONY : function.c.i
+
+function.s: function.c.s
+
+.PHONY : function.s
+
+# target to generate assembly for a file
+function.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Koordinata.dir\build.make CMakeFiles/Koordinata.dir/function.c.s
+.PHONY : function.c.s
 
 main.obj: main.c.obj
 
@@ -148,7 +175,7 @@ main.obj: main.c.obj
 
 # target to build an object file
 main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gyakorlat_2.dir\build.make CMakeFiles/Gyakorlat_2.dir/main.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Koordinata.dir\build.make CMakeFiles/Koordinata.dir/main.c.obj
 .PHONY : main.c.obj
 
 main.i: main.c.i
@@ -157,7 +184,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gyakorlat_2.dir\build.make CMakeFiles/Gyakorlat_2.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Koordinata.dir\build.make CMakeFiles/Koordinata.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -166,7 +193,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Gyakorlat_2.dir\build.make CMakeFiles/Gyakorlat_2.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Koordinata.dir\build.make CMakeFiles/Koordinata.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -177,7 +204,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Gyakorlat_2
+	@echo ... Koordinata
+	@echo ... function.obj
+	@echo ... function.i
+	@echo ... function.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
