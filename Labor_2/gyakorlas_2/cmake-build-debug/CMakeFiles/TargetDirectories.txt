@@ -1,3 +1,0 @@
-C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_2/gyakorlas_2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_2/gyakorlas_2/cmake-build-debug/CMakeFiles/gyakorlas_2.dir
-C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_2/gyakorlas_2/cmake-build-debug/CMakeFiles/edit_cache.dir
