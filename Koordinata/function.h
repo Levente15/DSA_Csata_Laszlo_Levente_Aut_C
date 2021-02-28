@@ -4,5 +4,5 @@
 
 #ifndef KOORDINATA_FUNCTION_H
 #define KOORDINATA_FUNCTION_H
-
+int tavolsag(float ax,float ay, float bx, float by);
 #endif //KOORDINATA_FUNCTION_H
