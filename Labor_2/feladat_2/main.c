@@ -13,8 +13,10 @@ int main() {
     int elso=0,utolso=n-1;
     feltoltes(a,n);
     kiiras(a,n);
-    printf("\nA keresett elem: %i\n100",keresettelem);
-    binariskereses(a,n,keresettelem,elso,utolso);
+    printf("\nA keresett elem: %i\n",keresettelem);
+    qsort(a,n,sizeof(int),seged);
+    kiiras(a,n);
+    binariskereses(a,n,elso,utolso,keresettelem);
     free(a);
     return 0;
 }

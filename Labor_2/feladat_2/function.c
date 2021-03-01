@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 # include "function.h"
-
+#include "function.h"
 int feltoltes(int* a, int n)
 {
     srand(time(NULL));
@@ -21,24 +21,26 @@ int kiiras(int* a, int n)
         printf("%i ", a[i]);
     }
 }
-void binariskereses(int* a, int n, int x, int elso, int utolso)
+int seged(const void* a, const void* b){
+    return *(int*)a-*(int*)b;
+}
+void binariskereses(int* a, int n, int elso, int utolso,int x)
 {
     int kozep=(elso+utolso)/2;
     while(elso<=utolso) {
         if (a[kozep] < x) {
             elso = kozep + 1;
         } else if (a[kozep] == x) {
-            printf(" Az elem megvan: %i", kozep + 1);
+            printf("\nAz elem megvan: %i", kozep + 1);
             break;
-        } else {
+        } else
             utolso = kozep - 1;
             kozep = (elso + utolso) / 2;
-        }
+
     }
         if(elso>utolso)
         {
-            printf(" A keresett elem nincs meg");
+            printf("\nA keresett elem nincs meg");
         }
-    }
+}
 
-#include "function.h"
