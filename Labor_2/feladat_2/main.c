@@ -5,6 +5,7 @@
 #include "function.h"
 
 int main() {
+    clock_t start = clock();
     srand(time(NULL));
     int n;
     scanf("%i",&n);
@@ -18,5 +19,8 @@ int main() {
     kiiras(a,n);
     binariskereses(a,n,elso,utolso,keresettelem);
     free(a);
+    clock_t stop = clock();
+    double elapsed = (double) (stop - start) / CLOCKS_PER_SEC;
+    printf("\nTime : %.5f\n", elapsed);
     return 0;
 }
