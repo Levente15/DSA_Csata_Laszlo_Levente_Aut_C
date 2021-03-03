@@ -5,12 +5,12 @@
 #include "function.h"
 
 int main() {
-    srand(time(NULL));
+    //srand(time(NULL));
     int n;
     scanf("%i", &n);
     int *a = (int *) malloc(n * sizeof(int));
     feltoltes(a, n);
-    int keresettelem = rand() % 100;
+    int keresettelem =n/2;
     clock_t begin = clock();
 
     int pozicio= lineariskereses(a, n, keresettelem);

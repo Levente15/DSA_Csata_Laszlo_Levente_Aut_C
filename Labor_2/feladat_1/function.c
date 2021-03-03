@@ -8,10 +8,10 @@
 
 int feltoltes(int* a, int n)
 {
-      srand(time(NULL));
+     // srand(time(NULL));
      for(int i=0;i<n;i++)
      {
-         a[i]=rand()%100;
+         a[i]=i+1;
      }
 }
 int kiiras(int* a, int n)
