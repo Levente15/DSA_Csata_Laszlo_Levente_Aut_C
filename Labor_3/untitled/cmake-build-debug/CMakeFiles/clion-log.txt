@@ -1,0 +1,1 @@
+CMakeLists.txt not found in C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_Csata_Laszlo_Levente_Aut_C\Labor_3\untitled Select CMakeLists.txt
