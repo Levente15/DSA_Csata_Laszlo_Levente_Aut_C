@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "1_feladat.exe"
   "1_feladat.exe.manifest"
   "1_feladat.pdb"
+  "CMakeFiles/1_feladat.dir/functions.c.obj"
   "CMakeFiles/1_feladat.dir/main.c.obj"
   "lib1_feladat.dll.a"
 )

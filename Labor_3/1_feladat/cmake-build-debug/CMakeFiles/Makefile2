@@ -93,12 +93,12 @@ clean: CMakeFiles/1_feladat.dir/clean
 CMakeFiles/1_feladat.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_feladat.dir\build.make CMakeFiles/1_feladat.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_feladat.dir\build.make CMakeFiles/1_feladat.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_Csata_Laszlo_Levente_Aut_C\Labor_3\1_feladat\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target 1_feladat"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_Csata_Laszlo_Levente_Aut_C\Labor_3\1_feladat\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target 1_feladat"
 .PHONY : CMakeFiles/1_feladat.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1_feladat.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_Csata_Laszlo_Levente_Aut_C\Labor_3\1_feladat\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_Csata_Laszlo_Levente_Aut_C\Labor_3\1_feladat\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/1_feladat.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_Csata_Laszlo_Levente_Aut_C\Labor_3\1_feladat\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/1_feladat.dir/rule
