@@ -1,0 +1,27 @@
+Index: ../1_feladat/.idea/misc.xml
+===================================================================
+diff --git a/../1_feladat/.idea/misc.xml b/../1_feladat/.idea/misc.xml
+deleted file mode 100644
+--- a/../1_feladat/.idea/misc.xml	(revision ab13887b9ed2dcd3a167c63b7ae5400d413fbe75)
++++ /dev/null	(revision ab13887b9ed2dcd3a167c63b7ae5400d413fbe75)
+@@ -1,4 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
+-</project>
+\ No newline at end of file
+Index: ../1_feladat/.idea/.gitignore
+===================================================================
+diff --git a/../1_feladat/.idea/.gitignore b/../1_feladat/.idea/.gitignore
+deleted file mode 100644
+--- a/../1_feladat/.idea/.gitignore	(revision ab13887b9ed2dcd3a167c63b7ae5400d413fbe75)
++++ /dev/null	(revision ab13887b9ed2dcd3a167c63b7ae5400d413fbe75)
+@@ -1,8 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+-# Datasource local storage ignored files
+-/../../../../../../../../../../../:\Users\Legion\Desktop\Informatika\Masodik_felev\Adatszerkezetek\DSA_Csata_Laszlo_Levente_Aut_C\Labor_3\1_feladat\.idea/dataSources/
+-/dataSources.local.xml
+-# Editor-based HTTP Client requests
+-/httpRequests/
