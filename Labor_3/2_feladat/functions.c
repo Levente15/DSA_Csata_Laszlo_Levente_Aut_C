@@ -129,4 +129,39 @@ void copy(IntArray *arrayTo, IntArray *arrayFrom) {
     for (int i = 0; i < arrayTo->size; i++)
         arrayTo->elements[i] = arrayFrom->elements[i];
 }
+int linearSearch(IntArray* array, int element){
+    for(int i=0;i<array->size;i++){
+        if(array->elements[i]==element)
+            return i;
+    }
+    return -1;
+}
+int binarySearch(IntArray* array, int start, int end, int element) {
+    start = 0;
+    end = array->size-1;
+    int kozep = (start + end) / 2;
+    /*if(start>end)
+        return -1;
+    if(array->elements[kozep]==element)
+        return kozep;
+    if(array->elements[kozep]<element)
+        return binarySearch(array,kozep+1,end,element);
+        else
+        return binarySearch(array,start,kozep-1,element);*/
+    while (start <= end) {
+        if (array->elements[kozep] < element)
+            start = kozep + 1;
+        else if (array->elements[kozep] == element) {
+            return kozep;
+            break;
+        }
+        else
+            end = kozep - 1;
+
+        kozep = (start + end)/2;
+    }
+    if (start > end)
+        return -1;
+
+}
 #include "functions.h"

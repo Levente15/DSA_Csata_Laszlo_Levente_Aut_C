@@ -36,5 +36,21 @@ int main() {
         copy(copyArray, array);
         printArray(copyArray);
     }
+    printf("\n");
+    int lineariskeres=linearSearch(array,element);
+    printf("Linearis kerese\n");
+    if(lineariskeres==-1){
+        printf("Nincs meg a keresett elem");
+    }else{
+        printf("A kereesett elem megvan a kovetkezo pozicion: %i",lineariskeres+1);
+    }
+    printf("\n Binaris kerese\n");
+    int start,end;
+    int binariskeres=binarySearch(array,start, end, element);
+    if(binariskeres==-1){
+        printf("Nincs meg a keresett elem");
+    }else{
+        printf("A keresett elem a kovi pozicioban van: %i",binariskeres+1);
+    }
     return 0;
 }

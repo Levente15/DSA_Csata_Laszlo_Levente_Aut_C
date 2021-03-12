@@ -21,4 +21,6 @@ void sortArray(IntArray *array);
 void deleteElement(IntArray *array, int element);
 void copy(IntArray *arrayTo, IntArray *arrayFrom);
 int seged(const void* a, const void* b);
+int linearSearch(IntArray* array, int element);
+int binarySearch(IntArray* array, int start, int end, int element);
 #endif //INC_2_FELADAT_FUNCTIONS_H
