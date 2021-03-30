@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Stack_dynamic"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_6/Stack_dynamic/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_6/Stack_dynamic/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_6/Stack_dynamic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_6/Stack_dynamic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_6/Stack_dynamic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Stack_dynamic">
+				<Option output="C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_6/Stack_dynamic/cmake-build-debug/Stack_dynamic.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_6/Stack_dynamic/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/OJI/Codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="C:/OJI/Codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/OJI/Codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_6/Stack_dynamic/cmake-build-debug/Makefile&quot;  VERBOSE=1 Stack_dynamic"/>
+					<CompileFile command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_6/Stack_dynamic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_6/Stack_dynamic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_6/Stack_dynamic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Stack_dynamic/fast">
+				<Option output="C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_6/Stack_dynamic/cmake-build-debug/Stack_dynamic.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_6/Stack_dynamic/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/OJI/Codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="C:/OJI/Codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/OJI/Codeblocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_6/Stack_dynamic/cmake-build-debug/Makefile&quot;  VERBOSE=1 Stack_dynamic/fast"/>
+					<CompileFile command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_6/Stack_dynamic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_6/Stack_dynamic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_6/Stack_dynamic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_6/Stack_dynamic/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_6/Stack_dynamic/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_6/Stack_dynamic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_6/Stack_dynamic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_6/Stack_dynamic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_6/Stack_dynamic/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_6/Stack_dynamic/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_6/Stack_dynamic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_6/Stack_dynamic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/OJI/Codeblocks/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_6/Stack_dynamic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_6/Stack_dynamic/functions.c">
+			<Option target="Stack_dynamic"/>
+		</Unit>
+		<Unit filename="C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_6/Stack_dynamic/functions.h">
+			<Option target="Stack_dynamic"/>
+		</Unit>
+		<Unit filename="C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_6/Stack_dynamic/main.c">
+			<Option target="Stack_dynamic"/>
+		</Unit>
+		<Unit filename="C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_6/Stack_dynamic/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
