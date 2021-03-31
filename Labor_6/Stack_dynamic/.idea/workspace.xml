@@ -11,9 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ca69078-dd87-4c91-b9be-aa0e98589ff7" name="Default Changelist" comment="Stack_d">
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-    </list>
+    <list default="true" id="6ca69078-dd87-4c91-b9be-aa0e98589ff7" name="Default Changelist" comment="Stack_d" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +20,6 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
@@ -66,6 +63,7 @@
       <workItem from="1617114424715" duration="32000" />
       <workItem from="1617122237848" duration="1284000" />
       <workItem from="1617175393199" duration="9000" />
+      <workItem from="1617175454060" duration="34000" />
     </task>
     <task id="LOCAL-00001" summary="Stack_d">
       <created>1617124732500</created>
