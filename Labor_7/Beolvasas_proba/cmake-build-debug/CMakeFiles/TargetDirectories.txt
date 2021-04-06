@@ -1,0 +1,3 @@
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_7/Beolvasas_proba/cmake-build-debug/CMakeFiles/Beolvasas_proba.dir
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_7/Beolvasas_proba/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_7/Beolvasas_proba/cmake-build-debug/CMakeFiles/rebuild_cache.dir

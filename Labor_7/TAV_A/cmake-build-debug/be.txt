@@ -1,0 +1,4 @@
+3
+Alma Akcio 3.2 2 14.30 18.30
+Korte Vig 4.5 2 15.30 19.30
+Alma Akcio 3.2 2  16.30 20.30
