@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\TAV_A.dir/objects.a
-C:\OJI\Codeblocks\MinGW\bin\ar.exe cr CMakeFiles\TAV_A.dir/objects.a @CMakeFiles\TAV_A.dir\objects1.rsp
-C:\OJI\Codeblocks\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\TAV_A.dir/objects.a -Wl,--no-whole-archive  -o TAV_A.exe -Wl,--out-implib,libTAV_A.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\TAV_A.dir\linklibs.rsp

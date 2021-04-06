@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Beolvasas_proba.dir/objects.a
-C:\OJI\Codeblocks\MinGW\bin\ar.exe cr CMakeFiles\Beolvasas_proba.dir/objects.a @CMakeFiles\Beolvasas_proba.dir\objects1.rsp
-C:\OJI\Codeblocks\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\Beolvasas_proba.dir/objects.a -Wl,--no-whole-archive  -o Beolvasas_proba.exe -Wl,--out-implib,libBeolvasas_proba.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Beolvasas_proba.dir\linklibs.rsp
