@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_7/TAV_B/function.c
+stdio.h
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_7/TAV_B/stdio.h
+stdlib.h
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_7/TAV_B/stdlib.h
+string.h
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_7/TAV_B/string.h
+function.h
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_7/TAV_B/function.h
+
+C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_7/TAV_B/function.h
+

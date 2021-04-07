@@ -1,0 +1,5 @@
+4
+Repa 12.2 K 2
+Uborka 13.2 C 3
+Cekla 14.2 F 2
+Paradicsom 16.2 F 2
