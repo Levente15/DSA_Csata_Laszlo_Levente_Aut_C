@@ -34,7 +34,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TAVK_A" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -63,7 +63,6 @@
       <workItem from="1617623106795" duration="14000" />
       <workItem from="1617717930618" duration="36000" />
       <workItem from="1617718642097" duration="50000" />
-      <workItem from="1617822800027" duration="27000" />
     </task>
     <servers />
   </component>
