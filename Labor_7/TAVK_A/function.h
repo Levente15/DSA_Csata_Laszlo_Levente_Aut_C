@@ -6,6 +6,7 @@
 #define TAVK_A_FUNCTION_H
 
 #include <string.h>
+#include "stdbool.h"
 
 typedef struct {
     char filmCim[32];
@@ -37,4 +38,29 @@ void printfilm(Film* film);
 void traverse(Node* front);
 
 void kiirtipus(Film* film,char* tipus);
+
+typedef struct {
+    Film* film;
+    struct Node* next;
+} NODE;
+
+NODE* createStack();
+
+void push(NODE** topptr,Film* film);
+
+void top(Node* topptr);
+
+void pop(NODE** topptr);
+
+typedef struct {
+    Film* film;
+    struct Node* next;
+}Queue;
+
+Queue * createQueue();
+
+bool isEmptY(Queue* front);
+void insertQueue(Queue** front,  Queue** last, Film* film);
+void traverseQueue(Queue* front);
+
 #endif //TAVK_A_FUNCTION_H

@@ -7,7 +7,9 @@
 #include <math.h>
 #include "stdio.h"
 #include "stdlib.h"
+#include "stdbool.h"
 #include "limits.h"
+
 
 Film *createfilm(char filmCim[32], char mufaj[25], double hossz, int vetitesek_szam) {
     Film *film = (Film *) malloc(sizeof(Film));
@@ -184,4 +186,87 @@ void kiirtipus(Film* film,char*tipus){
         break;
     }
 }
+NODE* createStack(){
+    NODE * NEWNODE=(NODE*)malloc(sizeof (NODE));
 
+    if(!NEWNODE){
+        printf("ERROR#1 Stack");
+        return NULL;
+    }
+    NEWNODE->next=NULL;
+
+    return NEWNODE;
+}
+void push(NODE** topptr,Film* film){
+    NODE* NEWNODE = createStack();
+    if(!NEWNODE){
+        printf("EROOR#2 STACK");
+        return ;
+    }
+    NEWNODE->film=film;
+    NEWNODE->next=*topptr;
+    *topptr=NEWNODE;
+}
+bool isEmpty(Node* topPtr) {
+    return topPtr->next == NULL;
+}
+
+void top(Node* topptr) {
+    if(!isEmpty(topptr))
+        printFilm(topptr->film);
+}
+void pop(NODE ** topptr) {
+//    if(isEmpty(*topptr))
+   //    return INT_MIN;
+
+    NODE* aux = *topptr;
+    Film* auxData = aux->film;
+    *topptr = aux->next;
+
+    free(aux);
+
+    printFilm(auxData);
+}
+
+
+Queue * createQueue(){
+    Queue * queue=(Queue*)malloc(sizeof (Queue));
+    if(!queue){
+        printf("ERROR#1, Queue");
+        return NULL;
+    }
+    queue->film=INT_MIN;
+    queue->next=NULL;
+
+    return queue;
+}
+bool isEmptY(Queue* front){
+    return front==NULL;
+}
+void insertQueue(Queue** front,  Queue** last, Film* film){
+    Queue * queue=createQueue();
+
+    if(!queue){
+        printf("ERROR#2 Queue");
+        return;
+    }
+    queue->film=film;
+
+    if(isEmpty(*front))
+        *front=*last=queue;
+    else{
+        (*last)->next=(struct Queue*)queue;
+        (*last)=queue;
+    }
+}
+void traverseQueue(Queue* front){
+    if(front==NULL)
+        return;
+
+    Queue * next=front;
+
+    while (next!=NULL){
+        printFilm(next->film);
+        next=(Queue*)next->next;
+    }
+}
