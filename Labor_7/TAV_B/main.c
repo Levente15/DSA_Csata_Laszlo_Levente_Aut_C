@@ -10,9 +10,22 @@ int main() {
         }
         printf("]\n");
     }
+
     printf("----------------\n");
-    legtobb(zoldseg);
+ //   legtobb(zoldseg);
     printf("----------------\n");
-    legkevesebb(zoldseg);
+   // legkevesebb(zoldseg);
+    printf("\n\n--Stackel--\n\n");
+
+    Node* topptr=createNode();
+    for(int i=0;i<4;i++){
+        push(&topptr,&zoldseg[i]);
+    }
+    pop(&topptr);
+    pop(&topptr);
+    pop(&topptr);
+    pop(&topptr);
+    printf("\n Repa kereses \n");
+    kiirkaposztat(zoldseg);
     return 0;
 }

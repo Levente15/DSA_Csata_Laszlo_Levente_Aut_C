@@ -120,3 +120,61 @@ void legkevesebb(Zoldseg* zoldseg) {
 
     }
 }
+void printZoldseg(Zoldseg* zoldseg){
+
+        printf("%s %0.2lf %s %i [",zoldseg->nev,zoldseg->tomeg,
+               zoldseg->vitamin,zoldseg->napokszam);
+
+        for(int j=0;j<7;j++)
+            printf("%i ",zoldseg->ajanlottszam[j]);
+
+        printf("]\n");
+
+}
+Node* createNode(){
+    Node* node=(Node*)malloc(sizeof (Node));
+    if(!node){
+        printf("Error#1, Stack");
+        return NULL;
+    }
+    node->next=NULL;
+
+    return node;
+}
+void push(Node** topptr, Zoldseg* zoldseg){
+    Node* newnode=createNode();
+
+    if(!newnode){
+        printf("Error#2, Stack");
+        return;
+    }
+    newnode->zoldseg=zoldseg;
+    newnode->next=*topptr;
+    *topptr=newnode;
+}
+bool isEmpty(Node* topptr){
+    return topptr->next==NULL;
+}
+void top(Node* topptr){
+    if(!isEmpty(topptr))
+        printZoldseg (topptr->zoldseg);
+}
+void pop(Node** topptr){
+
+    Node* aux=*topptr;
+    Zoldseg * auxdata=aux->zoldseg;
+    *topptr=aux->next;
+
+    free(aux);
+    printZoldseg(auxdata);
+}
+void kiirkaposztat(Zoldseg* zoldseg) {
+    for (int i = 0; i < 4; i++)
+        if (!strcmp(zoldseg[i].nev, "Repa")) {
+            printZoldseg(&zoldseg[i]);
+            break;
+        } else {
+            printf("Nincs ilyen zoldseg mar");
+            break;
+        }
+}
