@@ -1,0 +1,6 @@
+5
+Beer Hungary 6 12.34 1987 3
+Wine Spain 12 33.00 1899 4
+Jack_Daniels Tennesse 40 90.00 1789 5
+Ballantines Edinburgh 38 66.19 1875 6
+Heineken Amszterdam 6 3.90 1912 7

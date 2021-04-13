@@ -1,0 +1,5 @@
+Beer Hungary 6 12.341987 3 2 3 5 1 5 5 4 
+Wine Spain 12 33.001899 4 4 3 5 1 1 2 3 
+Jack_Daniels Tennesse 40 90.001789 5 2 2 1 3 3 2 2 
+Ballantines Edinburgh 38 66.191875 6 5 3 4 3 3 2 2 
+Heineken Amszterdam 6 3.901912 7 4 1 3 2 2 4 5 
