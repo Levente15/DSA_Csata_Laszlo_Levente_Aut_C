@@ -14,4 +14,6 @@ Tomb* create();
 Tomb * readfromfile(char *filename);
 void kiir(Tomb* tomb);
 void ossz(Tomb* tomb);
+int prim(Tomb* tomb);
+int checkPrime(int num);
 #endif //GYAKORLAS_3_FUNCTION_H

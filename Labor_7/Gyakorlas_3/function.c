@@ -57,3 +57,27 @@ void ossz(Tomb* tomb) {
     }
     printf("\nA paros szamok osszege: %i\n",ossz);
 }
+int checkPrime(int num) {
+
+    if (num <= 1) { return 0; }
+
+    for (int j = 2; j <= num / 2; j++) {
+        if (num % j == 0) {
+            return 0;
+        }
+        return 1;
+    }
+}
+int prim(Tomb* tomb){
+
+    int db=0;
+    int prime=0;
+   for(int i=0;i<tomb->meret;i++){
+   prime=checkPrime(tomb->elem[i]);
+   if(prime==1)
+   prime++;
+
+   }
+    return prime;
+
+}

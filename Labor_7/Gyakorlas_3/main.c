@@ -8,5 +8,6 @@ int main() {
 
     kiir(tomb);
     ossz(tomb);
+    printf("%i",prim(tomb));
     return 0;
 }
