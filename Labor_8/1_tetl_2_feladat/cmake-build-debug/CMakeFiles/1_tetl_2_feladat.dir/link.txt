@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\1_tetl_2_feladat.dir/objects.a
+C:\OJI\Codeblocks\MinGW\bin\ar.exe cr CMakeFiles\1_tetl_2_feladat.dir/objects.a @CMakeFiles\1_tetl_2_feladat.dir\objects1.rsp
+C:\OJI\Codeblocks\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\1_tetl_2_feladat.dir/objects.a -Wl,--no-whole-archive  -o 1_tetl_2_feladat.exe -Wl,--out-implib,lib1_tetl_2_feladat.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\1_tetl_2_feladat.dir\linklibs.rsp
