@@ -59,7 +59,7 @@ void gyok(F* p){
         }
     }
     float szam1=0;
-    szam1=sqrt(szam);
+    szam1=sqrt(-szam);
     printf("Az elso szam gyoke: %0.1lf",szam1);
 }
 void osszeg(F* p){
