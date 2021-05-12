@@ -74,6 +74,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_11/1_feladat/arfolyam.c">
+			<Option target="1_feladat"/>
+		</Unit>
+		<Unit filename="C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_11/1_feladat/arfolyam.h">
+			<Option target="1_feladat"/>
+		</Unit>
+		<Unit filename="C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_11/1_feladat/functions.c">
+			<Option target="1_feladat"/>
+		</Unit>
+		<Unit filename="C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_11/1_feladat/functions.h">
+			<Option target="1_feladat"/>
+		</Unit>
 		<Unit filename="C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_11/1_feladat/main.c">
 			<Option target="1_feladat"/>
 		</Unit>

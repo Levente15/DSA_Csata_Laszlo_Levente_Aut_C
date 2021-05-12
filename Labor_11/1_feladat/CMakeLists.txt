@@ -3,4 +3,4 @@ project(1_feladat C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(1_feladat main.c)
+add_executable(1_feladat main.c functions.c functions.h arfolyam.c arfolyam.h)

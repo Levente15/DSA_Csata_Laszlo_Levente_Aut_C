@@ -142,6 +142,60 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_feladat.dir\build.make CMakeFiles/1_feladat.dir/build
 .PHONY : 1_feladat/fast
 
+arfolyam.obj: arfolyam.c.obj
+
+.PHONY : arfolyam.obj
+
+# target to build an object file
+arfolyam.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_feladat.dir\build.make CMakeFiles/1_feladat.dir/arfolyam.c.obj
+.PHONY : arfolyam.c.obj
+
+arfolyam.i: arfolyam.c.i
+
+.PHONY : arfolyam.i
+
+# target to preprocess a source file
+arfolyam.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_feladat.dir\build.make CMakeFiles/1_feladat.dir/arfolyam.c.i
+.PHONY : arfolyam.c.i
+
+arfolyam.s: arfolyam.c.s
+
+.PHONY : arfolyam.s
+
+# target to generate assembly for a file
+arfolyam.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_feladat.dir\build.make CMakeFiles/1_feladat.dir/arfolyam.c.s
+.PHONY : arfolyam.c.s
+
+functions.obj: functions.c.obj
+
+.PHONY : functions.obj
+
+# target to build an object file
+functions.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_feladat.dir\build.make CMakeFiles/1_feladat.dir/functions.c.obj
+.PHONY : functions.c.obj
+
+functions.i: functions.c.i
+
+.PHONY : functions.i
+
+# target to preprocess a source file
+functions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_feladat.dir\build.make CMakeFiles/1_feladat.dir/functions.c.i
+.PHONY : functions.c.i
+
+functions.s: functions.c.s
+
+.PHONY : functions.s
+
+# target to generate assembly for a file
+functions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_feladat.dir\build.make CMakeFiles/1_feladat.dir/functions.c.s
+.PHONY : functions.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -178,6 +232,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... 1_feladat
+	@echo ... arfolyam.obj
+	@echo ... arfolyam.i
+	@echo ... arfolyam.s
+	@echo ... functions.obj
+	@echo ... functions.i
+	@echo ... functions.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

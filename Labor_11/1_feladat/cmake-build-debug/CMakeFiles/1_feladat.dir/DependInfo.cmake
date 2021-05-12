@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_11/1_feladat/arfolyam.c" "C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_11/1_feladat/cmake-build-debug/CMakeFiles/1_feladat.dir/arfolyam.c.obj"
+  "C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_11/1_feladat/functions.c" "C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_11/1_feladat/cmake-build-debug/CMakeFiles/1_feladat.dir/functions.c.obj"
   "C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_11/1_feladat/main.c" "C:/Users/Legion/Desktop/Informatika/Masodik_felev/Adatszerkezetek/DSA_Csata_Laszlo_Levente_Aut_C/Labor_11/1_feladat/cmake-build-debug/CMakeFiles/1_feladat.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
