@@ -7,23 +7,26 @@
 #include <stdlib.h>
 
 Heap *createHeap(int max) {
-    Heap *euro = (struct Heap *) malloc(sizeof(struct Heap));
+    Heap *heap = (struct Heap *) malloc(sizeof(struct Heap));
 
-    if (!euro) {
-        printf("Error#!");
+    if (!heap) {
+        printf("Error#1!");
         return NULL;
     }
-    euro->size = 0;
-    euro->maxSize = max;
-    euro->data = creatMoney();
+    heap->size = 0;
+    heap->maxSize = max;
+    heap->data = (Money**) malloc(heap->maxSize * sizeof(Money*));
+    for(int i=0;i<heap->maxSize;i++){
+        heap->data[i]=(Money*)malloc(sizeof (Money));
+    }
 
-    return euro;
+    return heap;
 }
 
 void insert(Heap *heap, Money *money) {
 
     heap->size++;
-    heap->data[heap->size] = *money;
+    *heap->data[heap->size] = *money;
     up(heap, heap->size);
 }
 
@@ -56,30 +59,61 @@ void down(Heap *heap, int i) {
 }
 
 void kupacrendez(Heap *heap, int n) {
-    for (int i = n / 2; i >= 1; i--) {
+    for (int i = n / 2; i >= 1; i--)
         down(heap, i);
 
-        for (int i = 1; i < n; i++) {
-            torolmax(heap);
-            down(heap, i);
-        }
+    for (int i = 1; i < n; i++) {
+        torolmax(heap);
+        down(heap, 1);
     }
+
 }
 
 Money *torolmax(Heap *heap) {
-    Money *tmp = heap->data[1];
-    heap->data[1] = heap->data[heap->size];
-    heap->data[heap->size]=tmp;
+    Money *tmp = heap->data[0];
+    heap->data[0] = heap->data[heap->size];
+    heap->data[heap->size] = tmp;
 
     heap->size--;
+
     return tmp;
 }
-void readfromfile(Heap* heap, char* fileName){
 
-    FILE * fin=fopen(fileName,"rt");
+Heap *readfromfile(char *fileName) {
 
-    if(!fin){
-        printf("Error#3");
-        return;
+    FILE *fin = fopen(fileName, "rt");
+
+    if (!fin) {
+        printf("Error#2");
+        return NULL;
     }
+
+    int n;
+    fscanf(fin, "%i", &n);
+
+    Heap *heap = createHeap(n);
+
+    if (!heap) {
+        printf("Error#3");
+        return NULL;
+    }
+    for (int i = 0; i < n; i++) {
+        Money *money = creatMoney();
+
+        fscanf(fin, "%i", &money->year);
+        fscanf(fin, "%i", &money->month);
+
+        int tmp;
+        fscanf(fin, "%i", &tmp);
+
+        money->peni = tmp % 100;
+        tmp /= 100;
+        money->forint = tmp;
+
+        insert(heap, money);
+    }
+    fclose(fin);
+    fin = NULL;
+
+    return heap;
 }

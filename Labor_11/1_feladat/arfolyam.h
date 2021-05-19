@@ -7,17 +7,24 @@
 
 #include "functions.h"
 
-typedef struct Heap{
-    Money** data;
+typedef struct Heap {
+    Money **data;
     int size;
     int maxSize;
-}Heap;
+} Heap;
 
 Heap *createHeap(int max);
-void insert(Heap* heap, Money* money);
-void up(Heap* heap, int i);
-void down(Heap* heap, int i);
-void kupacrendez(Heap* heap, int n);
+
+Heap* readfromfile(char *fileName);
+
 Money *torolmax(Heap *heap);
-void readfromfile(Heap* heap, char* fileName);
+
+void insert(Heap *heap, Money *money);
+
+void up(Heap *heap, int i);
+
+void down(Heap *heap, int i);
+
+void kupacrendez(Heap *heap, int n);
+
 #endif //INC_1_FELADAT_ARFOLYAM_H

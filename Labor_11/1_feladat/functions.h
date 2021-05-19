@@ -8,24 +8,13 @@
 
 typedef struct {
     int year;
+    int month;
     int forint;
     int peni;
 }Money;
 
 Money* creatMoney();
 
-bool compare(Money* m1, Money* m2){
-    if(m1->forint>m2->forint)
-        return true;
-    else if(m1->forint<m2->forint)
-        return false;
-
-    if(m1->peni>m2->peni)
-        return true;
-    else if(m1->peni<m2->peni)
-        return false;
-
-    return false;
-}
+bool compare(Money* m1, Money* m2);
 
 #endif //INC_1_FELADAT_FUNCTIONS_H
